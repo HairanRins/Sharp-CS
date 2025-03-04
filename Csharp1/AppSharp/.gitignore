@@ -1,0 +1,34 @@
+# Dossiers de compilation
+bin/
+obj/
+
+# Fichiers de dépendances
+*.nuget
+*.nupkg
+*.snupkg
+
+# Fichiers de logs et temporaires
+*.log
+*.tmp
+
+# Fichiers de configuration utilisateur
+*.user
+*.suo
+*.cache
+*.vs/
+
+# Fichiers de lock
+project.lock.json
+artifacts/
+
+# Paramètres locaux (évite de committer les configurations locales)
+appsettings.Development.json
+secrets.json
+
+# JetBrains Rider / Resharper
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Visual Studio Code
+.vscode/
